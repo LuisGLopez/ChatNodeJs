@@ -1,11 +1,11 @@
 let express = require('express');
 let socket = require('socket.io');
-let port = process.env.PORT || 5000;
+let port = process.env.PORT || 4000;
 
 let app = express();
 
 let server = app.listen(port, ()=> {
-    console.log('escuchando en el puerto 4000');
+    console.log('escuchando puerts');
 });
 
 app.use(express.static('public'));
