@@ -1,5 +1,5 @@
 // Hacer la conexion
-let socket = io.connect('http://localhost:4000');
+let socket = io.connect();
 
 let message = document.getElementById('message');
 let handle = document.getElementById('handle');
