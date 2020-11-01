@@ -1,9 +1,10 @@
 let express = require('express');
 let socket = require('socket.io');
+let port = process.env.PORT || 5000;
 
 let app = express();
 
-let server = app.listen(5000, ()=> {
+let server = app.listen(port, ()=> {
     console.log('escuchando en el puerto 4000');
 });
 
