@@ -1,5 +1,5 @@
 // Hacer la conexion
-let socket = io.connect();
+let socket = io.connect('https://practica-chat-node.herokuapp.com/');
 
 let message = document.getElementById('message');
 let handle = document.getElementById('handle');
